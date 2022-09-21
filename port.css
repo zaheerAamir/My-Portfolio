@@ -1,0 +1,451 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke; 
+}  
+
+body.dark{
+    background-color: #1c1d25;
+    color: white;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border: solid black 1px;
+}
+
+.box{
+    height: 80px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#boxOne{
+    height: 47px;
+    width: 47px;
+    background-color: orange;
+    border: solid black 2px;
+    border-radius: 12px;
+}
+
+#boxTwo{
+    height: 47px;
+    width: 47px;
+    background-color: rgba(0, 255, 255, 0.362);
+    border: solid black 2px;
+    border-radius: 12px;
+}
+
+#boxThree{
+    height: 47px;
+    width: 47px;
+    background-color: yellow;
+    border: solid black 2px;
+    border-radius: 12px;
+}
+
+.txt{
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.navlist{
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    /* margin: 0px; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.aOne.dark{
+    color: aliceblue;
+}
+
+.aTwo.dark{
+    color: aliceblue;
+}
+
+.aThree.dark{
+    color: aliceblue;
+}
+
+#LtoD{
+    height: 50px;
+    width: 100px;
+    border: solid black 1px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.ball{
+    height: 35px;
+    width: 35px;
+    border: solid black 1px;
+    border-radius: 50px;
+    margin-top: 5px;
+    background-color: black;
+}
+
+.ball.right{
+    position: relative;
+    left: 50px;
+    transition-property: left;
+    transition-duration: 90s;
+    transition-delay: 2s;
+}
+
+.mainOne{
+    height: 70vh;
+    width: 100%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    height: 500px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.svg{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.myName{
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    left: 200px;
+    margin: 0px;
+}
+
+.myDisc{
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    max-width: 200px;
+}
+
+#abtme{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    position: relative;
+    left: 200px;
+    background-color: coral;
+   color: #1c1d25;
+}
+
+#abtme:hover{
+    background-color: rgb(193, 99, 65);
+}
+
+.mainTwo{
+    height: 50vh;
+    width: 100%;
+    border: solid black 1px;
+}
+
+#AbtHero{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#One{
+    height: 200px;
+    max-width: 50%;
+}
+
+.me{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+#mainThree{
+    height: 500px;
+    width: 100%;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.proj{
+    margin: 0px;
+    position: relative;
+    left: 45%;
+    max-width: 100px;
+}
+
+
+#nope{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#proj1{
+    height: 300px;
+    width: 150px;
+    border: solid black 1px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+#proj2{
+    height: 300px;
+    width: 150px;
+    border: solid black 1px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+#proj3{
+    height: 300px;
+    width: 150px;
+    border: solid black 1px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+#proj4{
+    height: 300px;
+    width: 150px;
+    border: solid black 1px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.title{
+    position: relative;
+    left: 12px;
+}
+
+.title.dark{
+    color: white;
+}
+
+.sdoku{
+    height: 200px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+#mainFour{
+    height: 200px;
+    width: 100%;
+    border: solid black 1px;
+}
+
+.cont{
+    position: relative;
+    left: 45%;
+    max-width: 150px;
+}
+
+#mail{
+    position: relative;
+    left: 43%;
+    max-width: 229px;
+}
+
+/*TABLET VIEW: */
+@media only screen and (max-width: 920px){
+    .myName{
+        font-size: 40px;
+        position: relative;
+        left: 100px;
+    }
+
+    .myDisc{
+        font-size: 30px;
+        position: relative;
+        left: 100px;
+    }
+
+    #abtme{
+        height: 50px;
+        width: 100px;
+        border-radius: 30px;
+        position: relative;
+        left: 100px;
+    }
+}
+
+/*MOBILE VIEW: */
+@media only screen and (max-width: 700px){
+
+    .navlist{
+        display: none;
+    }
+
+    .box{
+        display: none;
+    }
+
+    .respNav{
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        border: 0px;
+        background: transparent;
+    }
+
+    #omg{
+        height: 30px;
+        width: 30px;
+    }
+
+    .navlist.show{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 150px;
+    }
+
+    #LtoD{
+        height: 40px;
+        width: 70px;
+        border: solid black 1px;
+        border-radius: 50px;
+        margin-top: 5px;
+    }
+    
+    .ball{
+        height: 25px;
+        width: 25px;
+        border: solid black 1px;
+        border-radius: 50px;
+        margin-top: 5px;
+        background-color: black;
+    }
+
+    .ball.right{
+        position: relative;
+        left: 30px;
+        transition-property: left;
+        transition-duration: 90s;
+        transition-delay: 2s;
+    }
+
+    .twit{
+        height: 70px;
+        width: 70px;
+    }
+
+    .gith{
+        height: 70px;
+        width: 70px;
+    }
+
+    .likd{
+        height: 70px;
+        width: 70px;
+    }
+
+    .name{
+        width: 40%;
+    }
+
+    .myName{
+        font-size: 30px;
+        position: relative;
+        left: 30px;
+    }
+
+    .myDisc{
+        font-size: 20px;
+        position: relative;
+        left: 30px;
+        max-width: 100px;
+    }
+
+    #abtme{
+        height: 40px;
+        width: 80px;
+        border-radius: 20px;
+        position: relative;
+        left: 30px;
+    }
+
+    #One{
+        height: 300px;
+    }
+
+    .me{
+        height: 150px;
+        width: 150px;
+    }
+
+    .proj{
+        position: relative;
+        left: 40%;
+    }
+
+    #nope{
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #mainThree{
+        height: 900px;
+    }
+
+    .cont{
+        position: relative;
+        left: 30%;
+        max-width: 150px;
+    }
+    
+    #mail{
+        position: relative;
+        left: 24%;
+        max-width: 229px;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .respNav{
+        display: none;
+    }
+}
