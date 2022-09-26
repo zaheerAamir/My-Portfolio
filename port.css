@@ -70,7 +70,6 @@ li{
     text-decoration: none;
     list-style: none;
     font-size: 20px;
-    /* margin: 0px; */
 }
 
 a{
@@ -105,14 +104,14 @@ a{
     border-radius: 50px;
     margin-top: 5px;
     background-color: black;
+    transition-property: left;
+    transition-duration: 90ms;
+    transition-delay: 5s;
 }
 
 .ball.right{
     position: relative;
     left: 50px;
-    transition-property: left;
-    transition-duration: 90s;
-    transition-delay: 2s;
 }
 
 .mainOne{
@@ -124,7 +123,7 @@ a{
 }
 
 .name{
-    height: 500px;
+    height: 450px;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -132,17 +131,19 @@ a{
 }
 
 .svg{
-    height: 500px;
+    height: 450px;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
 }    
 
 img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    border-radius: 25px;
 }
 
 .myName{
@@ -365,17 +366,15 @@ img{
         transition-delay: 2s;
     }
 
-    .twit{
-        height: 70px;
-        width: 70px;
+    .svg{
+        height: 450px;
     }
 
-    .gith{
-        height: 70px;
-        width: 70px;
+    .name{
+        height: 450px;
     }
 
-    .likd{
+    img{
         height: 70px;
         width: 70px;
     }

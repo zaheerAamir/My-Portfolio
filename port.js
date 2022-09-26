@@ -4,9 +4,13 @@ const list = document.querySelector('.navlist')
 const butt = document.querySelector('#LtoD')
 const ball = document.querySelector('.ball')
 const bod = document.querySelector('body')
+
+/* navlist:  */
 const dod = document.querySelector('.aOne')
 const nop = document.querySelector('.aTwo')
 const fod = document.querySelector('.aThree')
+
+/* title sudoku solver in the projects section (p tag) */
 const proj = document.querySelector('.title')
 
 const arr = [
