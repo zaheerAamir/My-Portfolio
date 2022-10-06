@@ -213,7 +213,7 @@ img{
     background-color: rgb(193, 99, 65);
 }
 
-.mainTwo{
+#mainTwo{
     height: 30vh;
     width: 100%;
     display: flex;
@@ -365,7 +365,7 @@ img{
         height: 65vh;
     }
 
-    .mainTwo{
+    #mainTwo{
         height: 35vh;
     }
 
@@ -466,7 +466,7 @@ img{
         left: 30px;
     }
 
-    .mainTwo{
+    #mainTwo{
         height: 50vh;
     }
 
@@ -516,7 +516,7 @@ img{
         height: 80vh;
     }
 
-    .mainTwo{
+    #mainTwo{
         height: 60vh;
     }
 }
