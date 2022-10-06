@@ -13,6 +13,9 @@ const fod = document.querySelector('.aThree')
 /* title sudoku solver in the projects section (p tag) */
 const proj = document.querySelector('.title')
 
+/* button About me*/
+const tubb = document.querySelector('#abtme')
+
 const arr = [
     function toggle(){
         list.classList.toggle('show')
@@ -20,11 +23,13 @@ const arr = [
     
     function toggle(){
         ball.classList.toggle('right')
+        butt.classList.toggle('dark')
         bod.classList.toggle('dark')
         dod.classList.toggle('dark')
         nop.classList.toggle('dark')
         fod.classList.toggle('dark')
         proj.classList.toggle('dark')
+        tubb.classList.toggle('dark')
         console.log(butt, 'clicked')
     }
 ]

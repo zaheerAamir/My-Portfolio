@@ -4,8 +4,21 @@ body{
 }  
 
 body.dark{
-    background-color: #1c1d25;
+    background-color: rgb(57, 57, 57);
     color: white;
+    transition: 0.3s;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #6649b8;
 }
 
 .navbar{
@@ -15,7 +28,6 @@ body.dark{
     justify-content: space-between;
     align-items: center;
     margin: 0px;
-    border: solid black 1px;
 }
 
 .box{
@@ -30,7 +42,6 @@ body.dark{
     height: 47px;
     width: 47px;
     background-color: orange;
-    border: solid black 2px;
     border-radius: 12px;
 }
 
@@ -38,7 +49,6 @@ body.dark{
     height: 47px;
     width: 47px;
     background-color: rgba(0, 255, 255, 0.362);
-    border: solid black 2px;
     border-radius: 12px;
 }
 
@@ -46,7 +56,6 @@ body.dark{
     height: 47px;
     width: 47px;
     background-color: yellow;
-    border: solid black 2px;
     border-radius: 12px;
 }
 
@@ -72,58 +81,78 @@ li{
     font-size: 20px;
 }
 
+a:hover{
+    color: lightslategrey;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
 
+
 .aOne.dark{
     color: aliceblue;
+}
+
+.aOne.dark:hover{
+    color: rgba(240, 248, 255, 0.653);
 }
 
 .aTwo.dark{
     color: aliceblue;
 }
 
+.aTwo.dark:hover{
+    color: rgba(240, 248, 255, 0.653);
+}
+
 .aThree.dark{
     color: aliceblue;
 }
 
+.aThree.dark:hover{
+    color: rgba(240, 248, 255, 0.653);
+}
+
 #LtoD{
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 80px;
     border: solid black 1px;
     border-radius: 50px;
     margin-top: 5px;
+    margin-left: 5px;
+}
+
+#LtoD.dark{
+    background-color: rgb(57, 57, 57);
+    border: solid white 1px;
 }
 
 .ball{
-    height: 35px;
-    width: 35px;
-    border: solid black 1px;
+    height: 30px;
+    width: 30px;
     border-radius: 50px;
     margin-top: 5px;
+    margin-left: 0px;
     background-color: black;
-    transition-property: left;
-    transition-duration: 90ms;
-    transition-delay: 5s;
+    transition: 0.3s;
 }
 
 .ball.right{
-    position: relative;
-    left: 50px;
+    transform: translateX(39px);
+    background-color: white;
 }
 
 .mainOne{
-    height: 70vh;
+    height: 60vh;
     width: 100%;
-    border: solid black 1px;
     display: flex;
     justify-content: space-between;
 }
 
 .name{
-    height: 450px;
+    height: 400px;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -131,13 +160,17 @@ a{
 }
 
 .svg{
-    height: 450px;
+    height: 400px;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-}    
+}
+
+.Sco{
+    font-size: x-large;
+}
 
 img{
     height: 80px;
@@ -168,7 +201,12 @@ img{
     position: relative;
     left: 200px;
     background-color: coral;
-   color: #1c1d25;
+    color: rgb(57, 57, 57);
+    border: solid black 1px;
+}
+
+#abtme.dark{
+    color: white;
 }
 
 #abtme:hover{
@@ -176,17 +214,11 @@ img{
 }
 
 .mainTwo{
-    height: 50vh;
-    width: 100%;
-    border: solid black 1px;
-}
-
-#AbtHero{
-    height: 300px;
+    height: 30vh;
     width: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 #One{
@@ -201,9 +233,8 @@ img{
 }
 
 #mainThree{
-    height: 500px;
+    height: 400px;
     width: 100%;
-    border: solid black 1px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -225,69 +256,91 @@ img{
     justify-content: space-evenly;
 }
 
+#nope div{
+    height: 290px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 50, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+    opacity: 0.3;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+}
+
+#nope div:hover{
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+    transition: all 0.3s ease-in-out;
+}
+
 #proj1{
-    height: 300px;
-    width: 150px;
-    border: solid black 1px;
-    box-shadow: 2px 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #proj2{
-    height: 300px;
-    width: 150px;
-    border: solid black 1px;
-    box-shadow: 2px 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #proj3{
-    height: 300px;
-    width: 150px;
-    border: solid black 1px;
-    box-shadow: 2px 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #proj4{
-    height: 300px;
-    width: 150px;
-    border: solid black 1px;
-    box-shadow: 2px 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .title{
-    position: relative;
-    left: 12px;
+    margin: 0;
 }
 
 .title.dark{
     color: white;
 }
 
+.title.dark:hover{
+    color: rgba(240, 248, 255, 0.653);
+}
+
 .sdoku{
     height: 200px;
     width: 150px;
-    border-radius: 100px;
 }
 
 #mainFour{
-    height: 200px;
+    height: 120px;
     width: 100%;
-    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .cont{
-    position: relative;
-    left: 45%;
     max-width: 150px;
 }
 
 #mail{
-    position: relative;
-    left: 43%;
     max-width: 229px;
 }
 
 /*TABLET VIEW: */
 @media only screen and (max-width: 920px){
+    #nope div{
+        height: 290px;
+        width: 180px;
+    }
+
     .myName{
         font-size: 40px;
         position: relative;
@@ -306,6 +359,19 @@ img{
         border-radius: 30px;
         position: relative;
         left: 100px;
+    }
+
+    .mainOne{
+        height: 65vh;
+    }
+
+    .mainTwo{
+        height: 35vh;
+    }
+
+    .me{
+        height: 150px;
+        width: 150px;
     }
 }
 
@@ -359,19 +425,15 @@ img{
     }
 
     .ball.right{
-        position: relative;
-        left: 30px;
-        transition-property: left;
-        transition-duration: 90s;
-        transition-delay: 2s;
+        transform: translateX(30px);
     }
 
     .svg{
-        height: 450px;
+        height: 350px;
     }
 
     .name{
-        height: 450px;
+        height: 350px;
     }
 
     img{
@@ -404,6 +466,10 @@ img{
         left: 30px;
     }
 
+    .mainTwo{
+        height: 50vh;
+    }
+
     #One{
         height: 300px;
     }
@@ -431,14 +497,10 @@ img{
     }
 
     .cont{
-        position: relative;
-        left: 30%;
         max-width: 150px;
     }
     
     #mail{
-        position: relative;
-        left: 24%;
         max-width: 229px;
     }
 }
@@ -446,5 +508,15 @@ img{
 @media only screen and (min-width: 700px){
     .respNav{
         display: none;
+    }
+}
+
+@media only screen and (max-height: 600px){
+    .mainOne{
+        height: 80vh;
+    }
+
+    .mainTwo{
+        height: 60vh;
     }
 }
