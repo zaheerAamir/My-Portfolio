@@ -148,20 +148,22 @@ a{
     height: fit-content;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
 .name{
     height: 400px;
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .svg{
     height: 400px;
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,24 +184,19 @@ img{
 .myName{
     font-size: 50px;
     font-weight: 700;
-    position: relative;
-    left: 200px;
-    margin: 0px;
+    margin: 0;
 }
 
 .myDisc{
     font-size: 30px;
-    position: relative;
-    left: 200px;
-    max-width: 200px;
+    max-width: 154px;
+    margin: 0;
 }
 
 #abtme{
     height: 50px;
     width: 100px;
     border-radius: 30px;
-    position: relative;
-    left: 200px;
     background-color: coral;
     color: rgb(57, 57, 57);
     border: solid black 1px;
@@ -219,6 +216,7 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 #One{
@@ -347,26 +345,16 @@ img{
 
     .myName{
         font-size: 40px;
-        position: relative;
-        left: 100px;
     }
 
     .myDisc{
         font-size: 30px;
-        position: relative;
-        left: 100px;
     }
 
     #abtme{
         height: 50px;
         width: 100px;
         border-radius: 30px;
-        position: relative;
-        left: 100px;
-    }
-
-    #mainTwo{
-        height: 35vh;
     }
 
     .me{
@@ -428,16 +416,12 @@ img{
         transform: translateX(30px);
     }
 
-    .mainOne{
+    .svg{
         height: fit-content;
     }
 
-    .svg{
-        height: 350px;
-    }
-
     .name{
-        height: 350px;
+        height: 300px;
     }
 
     img{
@@ -451,14 +435,10 @@ img{
 
     .myName{
         font-size: 30px;
-        position: relative;
-        left: 30px;
     }
 
     .myDisc{
         font-size: 20px;
-        position: relative;
-        left: 30px;
         max-width: 100px;
     }
 
@@ -466,16 +446,14 @@ img{
         height: 40px;
         width: 80px;
         border-radius: 20px;
-        position: relative;
-        left: 30px;
     }
 
     #mainTwo{
-        height: 50vh;
+        margin-bottom: 10px;
     }
 
     #One{
-        height: 300px;
+        height: fit-content;
     }
 
     .me{
