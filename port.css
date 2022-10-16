@@ -336,6 +336,15 @@ img{
     max-width: 229px;
 }
 
+
+/* @media only screen and (min-height: 600px){
+    .mainOne{
+        height: fit-content;
+    }
+} */
+
+
+
 /*TABLET VIEW: */
 @media only screen and (max-width: 920px){
     #nope div{
@@ -493,12 +502,8 @@ img{
     }
 }
 
-@media only screen and (max-height: 600px){
+@media only screen and (min-height: 600px){
     .mainOne{
-        height: 80vh;
-    }
-
-    #mainTwo{
-        height: 60vh;
+        height: fit-content;
     }
 }
