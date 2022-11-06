@@ -240,6 +240,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 .proj{
@@ -251,15 +252,15 @@ img{
 
 
 #nope{
-    height: 400px;
+    height: fit-content;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-#nope div{
-    height: 290px;
+#proj{
+    height: 300px;
     width: 200px;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 50, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
@@ -268,34 +269,14 @@ img{
     transition: all 0.3s ease-in-out;
 }
 
-#nope div:hover{
+#proj:hover{
     opacity: 1;
     transform: scale3d(1, 1, 1);
     transition: all 0.3s ease-in-out;
+    background-color: hsl(0, 0%, 87%);
 }
 
-#proj1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#proj2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#proj3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#proj4{
+#proj{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -304,6 +285,12 @@ img{
 
 .title{
     margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.title:hover{
+    color: hsl(0, 0%, 40%);
 }
 
 .title.dark{
@@ -311,12 +298,28 @@ img{
 }
 
 .title.dark:hover{
-    color: rgba(240, 248, 255, 0.653);
+    color: gray;
 }
 
 .sdoku{
     height: 200px;
     width: 150px;
+}
+
+.title2.dark{
+    color: white;
+}
+
+.title2.dark:hover{
+    color: gray;
+}
+
+.title5.dark{
+    color: white;
+}
+
+.title5.dark:hover{
+    color: gray;
 }
 
 #mainFour{
