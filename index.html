@@ -1,83 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="port.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <meta charset="UTF-8" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
 </head>
+
 <body>
+
     <nav class="navbar">
         <section class="box">
             <div id="boxOne"></div>
             <div id="boxTwo"></div>
-            <div id="boxThree"><h3 class="txt">JS</h3></div>
+            <div id="boxThree">
+                <h3 class="txt">JS</h3>
+            </div>
         </section>
+
+        <button class="respNav" aria-expanded="false">
+            <svg class="SVG">
+                <rect class="line top"></rect>
+                <rect class="line middle"></rect>
+                <rect class="line bottom"></rect>
+            </svg>
+        </button>
+
         <ul class="navlist">
-            <li><a href="#mainFour" class="aOne">Contact me</a></li>
-            <li><a href="#mainTwo" class="aTwo">About me</a></li>
-            <li><a href="#mainThree"  class="aThree">Projects</a></li>
+            <li><a href="#mainFour" class="anchor">Contact me</a></li>
+            <li><a href="#mainOne" class="anchor">About me</a></li>
+            <li><a href="#mainThree" class="anchor">Projects</a></li>
         </ul>
-        <button class="respNav">
-            <img src="./portimages/icons8-hamburger-64.png" alt="" id="omg">
-        </button>
+
     </nav>
-    <div class="mainOne">
-        <button id="LtoD">
-            <div class="ball"></div>
-        </button>
-        <section class="name">
-            <h3 class="myName">Aamir</h3>
-            <p class="myDisc">Full Stack Developer</p>
-            <button id="abtme">About me</button>
-        </section>
-        <section class="svg">
-            <h3 class="Sco">Socials</h3>
-            <a href=""><img src="./portimages/free-twitter-icon-99-thumb.png" class="dtwit"/></a>
-            <a href="https://github.com/zaheerAamir"><img src="./portimages/darkgithubimage.png" class="dgith"/></a>
-            <a href="https://www.linkedin.com/in/aamir-zaheer-332206233/"><img src="./portimages/darklinkdin.webp" class="dlinkd"/></a>
-        </section>
-    </div>
-    <div id="mainTwo">
-        <footer id="One">
-            <h3 class="froo">About me</h3>
-            <p id="newDisc">A passionate web-developer who is trying learning how to code.
-                I discovered my passion for codding when i was in my freshmen 
-                year of my university.
-                Right now trying to a internship to get industry level experience.
-            </p>
-        </footer>
-        <img src="./portimages/mr.whiskerson.JPEG" alt="ME" class="me">
-    </div>
+
+    <button id="LtoD">
+        <div class="ball"></div>
+    </button>
+
+
+
     <div id="mainThree">
         <h2 class="proj">Projects</h2>
         <footer id="nope">
-            <div id="proj">
-                <img src="./portimages/sdokuimage.PNG" alt="" class="sdoku">
-                <a href=" https://sdoku-solver.netlify.app" class="title">
-                    <p >Sudoku Solver</p>
-                </a>
+            <div id="proj" aria-expanded="false">
+                <div class="proj_cont">
+                    <div class="proj_front">
+                        <img src="./Public/sdokuimage.PNG" alt="" class="sdoku">
+                        <a href=" https://sdoku-solver.netlify.app" class="title">
+                            <p>Sudoku Solver</p>
+                        </a>        
+                    </div>
+                    <div class="proj_back">
+                        <p class="proj_disc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Ducimus ipsa obcaecati iusto corporis facere perspiciatis ipsam facilis id commodi nam, fuga repudiandae ea molestiae? 
+                            Sint quod eveniet, eos, totam repellat quisquam animi culpa perspiciatis illo accusantium optio rerum dolorum deleniti.
+                        </p>    
+                    </div>
+                </div>
             </div>
-            <div id="proj">
-                <img src="./portimages/new-image.jpg" alt="" class="sdoku">
-                <a href="https://host-2b9b1.web.app/" class="title2">
-                    <p >Event hosting</p>
-                </a>
+            <div id="proj" aria-expanded="false">
+                <div class="proj_cont">
+                    <div class="proj_front">
+                        <img src="./Public/new-image.jpg" alt="" class="sdoku">
+                        <a href="https://blog-8fuvdjid9-zaheeraamir.vercel.app/" class="title2">
+                            <p>Social media blog app</p>
+                        </a>        
+                    </div>
+                    <div class="proj_back">
+                        <p class="proj_disc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Rerum fuga vero beatae officia error quaerat aliquam. Quod pariatur iste sequi.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, fugit.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, enim.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div id="proj">Comming soon!</div>
-            <div id="proj">Comming soon!</div>
+            <div id="proj" aria-expanded="false">
+                <div class="proj_cont">
+                    <div class="proj_front">
+                        Comming Soon!
+                    </div>
+                    <div class="proj_back"></div>
+                </div>
+            </div>
+            <div id="proj" aria-expanded="false">
+                <div class="proj_cont">
+                    <div class="proj_front">
+                        Comming Soon!
+                    </div>
+                    <div class="proj_back"></div>
+                </div>
+            </div>
         </footer>
     </div>
+
+    <div id="mainOne">
+
+        <section class="name">
+            <h3 class="myName">Aamir</h3>
+            <footer id="One">
+                <p class="myDisc">Full Stack Developer</p>
+                <p id="newDisc">A passionate web-developer who is trying learning how to code.
+                    I discovered my passion for codding when i was in my freshmen
+                    year of my university.
+                    Right now trying to a internship to get industry level experience.
+                </p>
+            </footer>    
+        </section>
+        <img src="./Public/mr.whiskerson.JPEG" alt="ME" class="me">
+    </div>
+
     <div id="mainFour">
         <h2 class="cont">Contact Me</h2>
         <p id="mail"><a href="mailto:aamirzaheer95@gmail.com" class="title5">aamirzaheer95@gmail.com</a></p>
+
+        <section class="svg">
+            <h3 class="Sco">Socials:</h3>
+            <a href=""><img src="./Public/free-twitter-icon-99-thumb.png" class="dtwit" /></a>
+            <a href="https://github.com/zaheerAamir"><img src="./Public/darkgithubimage.png" class="dgith" /></a>
+            <a href="https://www.linkedin.com/in/aamir-zaheer-332206233/"><img src="./Public/darklinkdin.webp"
+                    class="dlinkd" /></a>
+        </section>
+
     </div>
 
 
-    <script src="port.js"></script>
+    <script type="module" src="/main.js"></script>
 </body>
+
 </html>
