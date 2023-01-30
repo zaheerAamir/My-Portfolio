@@ -12,9 +12,9 @@ const card = document.querySelectorAll('#proj')
 const anchor = document.querySelectorAll('.anchor')
 
 /* title sudoku solver in the projects section (p tag) */
-const proj = document.querySelector('.title')
-const proj2 = document.querySelector('.title2')
+const proj = document.querySelectorAll('.title')
 const proj5 = document.querySelector('.title5')
+const cont = document.querySelectorAll('.proj_cont')
 
 const dup = document.querySelector('.proj')
 
@@ -32,8 +32,8 @@ const arr = [
         anchor.forEach(anc => anc.classList.toggle('dark'))
 
 
-        proj.classList.toggle('dark')
-        proj2.classList.toggle('dark')
+        proj.forEach(element => element.classList.toggle('dark'))
+        cont.forEach(element => element.classList.toggle('dark'))
         proj5.classList.toggle('dark')
 
         dup.classList.toggle('dark')

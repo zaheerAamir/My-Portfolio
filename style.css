@@ -70,6 +70,7 @@ body::-webkit-scrollbar-thumb{
   width: 47px;
   background-color: orange;
   border-radius: 12px;
+  box-shadow: 0px 10px 12px 0px rgb(26, 26, 26);
 }
 
 #boxTwo{
@@ -77,6 +78,7 @@ body::-webkit-scrollbar-thumb{
   width: 47px;
   background-color: rgba(0, 255, 255, 0.362);
   border-radius: 12px;
+  box-shadow: 0px 10px 12px 0px rgb(26, 26, 26);
 }
 
 #boxThree{
@@ -84,6 +86,7 @@ body::-webkit-scrollbar-thumb{
   width: 47px;
   background-color: yellow;
   border-radius: 12px;
+  box-shadow: 0px 10px 12px 0px rgb(26, 26, 26);
 }
 
 .txt{
@@ -185,12 +188,11 @@ li{
   height: var(--card_height);
   width: var(--card_width);
   border-radius: var(--card_border_radius);
-  border: solid red 1px;
   margin: 12px;
 }
 
 .proj_cont {
-  background-color: violet;
+  background-color: rgb(194, 193, 193);
   text-align: center;
   position: relative;
   transition: transform 2s ease;
@@ -198,6 +200,10 @@ li{
   height: var(--card_height);
   width: var(--card_width);
   border-radius: var(--card_border_radius);
+}
+
+.proj_cont.dark {
+  background-color: rgb(77, 76, 76);
 }
 
 #proj[aria-expanded='true'] .proj_cont {
@@ -258,20 +264,8 @@ li{
 
 .sdoku{
   height: 200px;
-  width: 150px;
-}
-
-.title2 {
-  text-decoration: none;
-  color: black;
-}
-
-.title2.dark{
-  color: white;
-}
-
-.title2.dark:hover{
-  color: gray;
+  width: 200px;
+  border-radius: 0;
 }
 
 .title5 {
